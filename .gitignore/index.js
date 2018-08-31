@@ -3,7 +3,7 @@ const  Discord = require('discord.js');
 var bot = new Discord.Client();
 
 bot.on("ready", function() {
-    bot.user.setGame("WtbBot, !help);
+    bot.user.setGame("wtbbot", !help);
     console.log("le bot a bien ete connecte");
 });
 
